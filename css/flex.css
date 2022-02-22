@@ -1,0 +1,16 @@
+#contenedor{display: flex;
+    width:95%;
+    background-color:blue;
+    height:500px;
+    justify-content: space-around;
+    flex-direction:row;
+    flex-wrap: wrap;
+    ;}
+
+
+#verde{width: 20%;
+   height: 100px;
+   text-align: center;border:solid black;color:black}
+#amarillo{width: 20%;
+        height:100px ;
+        text-align: center;border: solid black;color:black}

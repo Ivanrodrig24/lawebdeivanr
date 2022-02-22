@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head> 
+    <script src="https://kit.fontawesome.com/ec1cd3f954.js" crossorigin="anonymous"></script>
+    <title> Etiquetas Meta </title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="Author" content="Iván">
+    <meta name="Description" content="repaso del HEAD y los estilos en cascada">
+    <meta name="Keywords" content="HTML,CSS,JavaScript,SQL,PHP,jQuery,XML,DOM,Bootstrap,Python">
+    <style>
+       body{background-color: green;}
+       
+        @media only screen and (min-width: 900px) {
+          body {
+              background-color: red;}
+   
+}
+
+  @media only screen and (max-width:900px) and (min-width:601px)  {      /*tablet*/
+     body{
+          background-color: rgb(99, 42, 165);
+          font-size: 1em;}
+        #img2{display:none;}
+          
+}      
+  @media only screen and (max-width:600px){        /*movil*/
+    body{
+        background-color: yellow;
+        font-size:0,5em ;}
+        img{display:none;}
+  }   
+                    
+
+    
+
+    </style>
+    </head> 
+
+
+    <body>
+      <img src="multimedia/img/500px-brands.svg"  id="img2">  </img>
+      <img src="multimedia/img/ambulance-solid.svg">  </img>
+
+
+
+    </body>
+    </html>
